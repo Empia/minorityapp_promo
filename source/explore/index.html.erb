@@ -89,7 +89,7 @@
         min-height: 100%;
         max-height: 100%;
     }
-    
+
     .social-btns > * > *:first-child {
       color: #bdc3c7;
     }
@@ -124,6 +124,21 @@
     }
     .content-23.v-center, .content-23 .v-center {
     height: 100%;
+}
+.explore-page {
+    height: 600px;
+    background: white;
+    margin-top: 36px;
+}
+.explore-page .hero-unit {
+  background: none;
+}
+.explore-page .hero-unit p {
+  color: black;
+  margin-top: 15px;
+}
+.hero-unit h1 {
+    color: black;
 }
     </style>
   <link rel="shortcut icon" href="/favicon.ico" />
@@ -248,36 +263,85 @@
       </div>
     </div>
   </header>
-  <style>
-    <![CDATA[ .contant-page a {
-      font-size: 38px;
-    }
 
-    .contant-page p {
-      padding-bottom: 54px;
-    }
+<style>
+/* temp styles*/
 
-    ]]>
-  </style>
-  <section class="content-23 contant-page v-center bg-midnight-blue">
-    <div>
-      <div class="container">
-        <div class="hero-unit">
-          <div>
+.explore-page .hero-unit.left-unit {
+  float: left;
+  /*! flex-direction: column; */
+  clear: both;
+  /*! display: inline-block; */
+  margin: 0 21px;
+}
+.explore-page .hero-unit .container {
+  display: flex;
+}
+.explore-page .hero-unit.right-unit {
+  float: right;
+}
+.explore-desc {
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+}
+.explore-pic {
+    float: right;
+    margin-top: 26px;
+}
+.right-unit .explore-desc {
+  float: right;
+
+}
+.right-unit .explore-pic {
+  float: left;
+}
+
+
+</style>
+
+
+
+  <section class="explore-page">
             <div class="container">
-              <div class="hero-unit">
-                <h1>Sales and partnership questions:</h1>
-                <p><a href="mailto:paul@minorityapp.com?body=Sales%20question">paul@minorityapp.com</a></p>
-                <h1>Support:</h1>
-                <p><a href="mailto:stan@minorityapp.com?body=Sales%20question">stan@minorityapp.com</a></p>
-
+              <div class="hero-unit left-unit">
+                <h1>What is:</h1>
+                <div class="explore-desc">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="explore-pic">
+                  <img src="https://i1.sndcdn.com/artworks-000147611136-grz1f3-t200x200.jpg" />
+                </div>
               </div>
+              <div class="hero-unit right-unit">
+                <h1>What is:</h1>
+                <div class="explore-desc">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="explore-pic">
+                  <img src="https://i1.sndcdn.com/artworks-000147611136-grz1f3-t200x200.jpg" />
+                </div>
+              </div>
+              <div class="hero-unit left-unit">
+                <h1>What is:</h1>
+                <div class="explore-desc">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="explore-pic">
+                  <img src="https://i1.sndcdn.com/artworks-000147611136-grz1f3-t200x200.jpg" />
+                </div>
+              </div>
+
+
+
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
+
+
+
+
+
+
   <footer class="footer-3">
     <div class="container">
       <div class="">
