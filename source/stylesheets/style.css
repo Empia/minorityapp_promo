@@ -1169,6 +1169,22 @@ form.navbar-form {
     width: 91px;
     background: white
 }
+
+
+
+.section.whatis-section.all-in-one.grey-gradient {
+  margin-bottom: -5px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  color: black;
+  font-weight: 500;
+  background: rgb(245, 255, 255);
+  background: linear-gradient(45deg, #f9fdfd 0%,#f6fefe 100%);
+}
+.section.whatis-section.all-in-one.grey-gradient .content {
+  width: 68%;
+}
+
 .section.full-cta.grey {
     padding: 39px 68px 96px 0px;
     background: #4399D4;
