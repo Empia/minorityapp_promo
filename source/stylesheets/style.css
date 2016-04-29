@@ -1649,10 +1649,10 @@ hr {
     margin-top: 25px
 }
 .section.all-in-one .col-3 {
-    width: 22%;
+    width: 46%;
     float: left;
-    margin-right: 3%;
-    text-align: center
+    margin-right: 4%;
+    text-align: center;
 }
 .section.all-in-one .col-3.col-downed {
     margin: 0 auto;
@@ -1686,7 +1686,9 @@ hr {
 .section.all-in-one .col-3 p {
     margin-top: 20px;
     font-size: 17px;
-    line-height: 27px
+    line-height: 27px;
+    width: 60%;
+    margin: 0 auto;
 }
 .section.all-in-one .col-3 .node-shield {
     max-width: 100%;
