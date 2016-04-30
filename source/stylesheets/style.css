@@ -1198,6 +1198,13 @@ a#mc-embedded-subscribe {
   width: 68%;
 }
 
+.whatis-section p {
+    font-family: 'Proxima Nova Th';
+    font-weight: 100;
+    font-size: 22px;
+    text-align: left;
+}
+
 .section.full-cta.grey {
     padding: 39px 68px 96px 0px;
     background: #16a085;
