@@ -1162,6 +1162,19 @@ form.navbar-form {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 600
 }
+
+a#mc-embedded-subscribe {
+    padding: 8px 25px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 131px;
+}
+
+
 .header-10 .navbar .brand img:first-child {
     float: left;
     margin: -10px 10px 0 0;
