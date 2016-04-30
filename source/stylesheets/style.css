@@ -2424,7 +2424,7 @@ hr {
 }
 .content-23.content-23-new .hero-unit h1,
 .content-23.content-23-new .hero-unit p {
-    color: black
+    color: white;
 }
 @media (max-width: 480px) {
     .content-23 .hero-unit h1 {
@@ -4005,7 +4005,7 @@ ul.prevideo-list li {
     top: -16px
 }
 .compare-motto {
-    color: black;
+color: white;
     font-weight: 900;
     font-size: 21px;
     clear: both;
@@ -4013,9 +4013,9 @@ ul.prevideo-list li {
     margin-top: 210px
 }
 .content-23.content-23-new.primary-unit.v-center.bg-midnight-blue {
-    background-size: covewr !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
-    background: url('/images/pattern_2.svg');
+    background: url('/images/sign.bg.jpg');
     display: block
 }
 .content-23.content-23-new.v-center>div,
