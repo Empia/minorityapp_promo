@@ -8304,6 +8304,7 @@ label > strong {
     list-style: none;
     margin: 0;
     padding: 0;
+    background: #F0F2F4;
 }
 .unit-col {
     float: left;
@@ -8328,8 +8329,9 @@ label > strong {
 }
 
 .unit-col .plan-box {
-    background-color: transparent !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     border: none !important;
+    margin-bottom: 0px;
 }
 .plan-box p {
     font-size: 12px;
