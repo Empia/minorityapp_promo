@@ -8271,7 +8271,9 @@ input[type="radio"] {
 .pricing-box .pricing-box-header label {
     margin-right: 20px;
     color: #5b666d;
-    display: inline;
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 7px;
 }
 .input-radio {
     background: white;
@@ -8381,7 +8383,7 @@ label > strong {
     height: 30px;
     position: relative;
     max-width: 70%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .pricing-scale::before {
     content: "";
@@ -8474,8 +8476,8 @@ label > strong {
     width: 18px;
     height: 42px;
     top: -20px;
-    border: 1px solid #0688d5;
-    background-color: #068edf;
+    border: 1px solid #099695;
+    background-color: #079493;
     box-shadow: 0 3px 15px rgba(0,0,0,0.15),0 0 1px rgba(0,0,0,0.1);
     transition: box-shadow .25s;
     width: 24px;
