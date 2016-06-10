@@ -1771,9 +1771,9 @@ stepSlider.noUiSlider.on('update', function( values, handle ) {
            var people_count = Math.floor(values[handle]/200);
            var selected_price
            if ($('.pricing-box-header input[type="radio"]:checked').val() == "1") {
-            selected_price = 4.50;
-           } else {
             selected_price = 5.50;
+           } else {
+            selected_price = 4.50;
            }
            
            $('#people-count').text(people_count);
