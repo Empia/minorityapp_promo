@@ -188,12 +188,37 @@
     font-style: normal;
     font-weight: 400
 }
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
 @media (min-width: 1200px) {
     form.navbar-form {
         left: 41%;
         margin: 17px 69%
     }
 }
+
+
 @media (max-width: 768px) {
     .section.all-in-one .col-3 .node-shield {
         position: absolute;
@@ -868,15 +893,7 @@ button:active {
     .navbar .nav-collapse::-webkit-scrollbar {
         display: none
     }
-    .navbar .nav-collapse>* {
-        margin: 30px 0 0 !important
-    }
-    .navbar .nav-collapse>*:first-child {
-        margin-top: 0 !important
-    }
-    .navbar .nav-collapse .nav>li {
-        margin: 0
-    }
+
     .navbar .nav-collapse .nav>li>a {
         display: block !important;
         margin: 0;
@@ -1706,6 +1723,10 @@ hr {
     width: 60%;
     margin: 0 auto;
 }
+header.header-10 {
+  background-color: white;
+}
+
 .section.all-in-one .col-3 .node-shield {
     max-width: 100%;
     padding: 0 0;
@@ -1811,93 +1832,7 @@ hr {
 .header-10 .navbar .btn-navbar.active {
     color: #869198
 }
-@media (max-width: 979px) {
-    .header-10 .navbar .nav-collapse {
-        padding-top: 17px;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: -230px;
-        width: 230px;
-        height: auto !important;
-        padding: 25px 0;
-        border-radius: 0;
-        float: none;
-        overflow: auto !important;
-        background: #222527;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
-    }
-    .header-10 .navbar .nav-collapse::-webkit-scrollbar {
-        display: none
-    }
-    .header-10 .navbar .nav-collapse>* {
-        margin: 30px 0 0 !important
-    }
-    .header-10 .navbar .nav-collapse>*:first-child {
-        margin-top: 0 !important
-    }
-    .header-10 .navbar .nav-collapse .nav>li {
-        margin: 0
-    }
-    .header-10 .navbar .nav-collapse .nav>li>a {
-        display: block !important;
-        margin: 0;
-        padding: 12px 35px;
-        border-bottom: 2px solid #24292d;
-        font-size: 13px;
-        font-weight: normal;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        letter-spacing: 1px;
-        color: #5b5e61;
-        text-transform: uppercase
-    }
-    .header-10 .navbar .nav-collapse .nav>li>a:hover,
-    .header-10 .navbar .nav-collapse .nav>li>a:focus,
-    .header-10 .navbar .nav-collapse .nav>li>a.active {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .nav>li.active>a {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .nav>li.active>a:hover,
-    .header-10 .navbar .nav-collapse .nav>li.active>a:focus,
-    .header-10 .navbar .nav-collapse .nav>li.active>a.active {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .subnav {
-        display: block;
-        list-style: none
-    }
-    .header-10 .navbar .nav-collapse .subnav li>a {
-        display: block;
-        margin: 0;
-        padding: 7px 35px;
-        font-size: 13px;
-        font-weight: normal;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        color: #5b5e61;
-        text-transform: capitalize
-    }
-    .header-10 .navbar .nav-collapse .subnav li>a:hover,
-    .header-10 .navbar .nav-collapse .subnav li>a:focus,
-    .header-10 .navbar .nav-collapse .subnav li>a.active {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .navbar-form,
-    .header-10 .navbar .nav-collapse .navbar-search {
-        padding: 10px 35px
-    }
-    .header-10 .navbar .btn-navbar:before {
-        content: '';
-        display: block;
-        background-image: url("../images/icons/menu-icon.png");
-        width: 17px;
-        height: 12px
-    }
-}
+
 .header-10-sub {
     position: relative;
     z-index: 50;
@@ -5935,40 +5870,8 @@ hr {
     .header-10 .navbar .nav-collapse::-webkit-scrollbar {
         display: none
     }
-    .header-10 .navbar .nav-collapse>* {
-        margin: 30px 0 0 !important
-    }
-    .header-10 .navbar .nav-collapse>*:first-child {
-        margin-top: 0 !important
-    }
-    .header-10 .navbar .nav-collapse .nav>li {
-        margin: 0
-    }
-    .header-10 .navbar .nav-collapse .nav>li>a {
-        display: block !important;
-        margin: 0;
-        padding: 12px 35px;
-        border-bottom: 2px solid #24292d;
-        font-size: 13px;
-        font-weight: normal;
-        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        letter-spacing: 1px;
-        color: #5b5e61;
-        text-transform: uppercase
-    }
-    .header-10 .navbar .nav-collapse .nav>li>a:hover,
-    .header-10 .navbar .nav-collapse .nav>li>a:focus,
-    .header-10 .navbar .nav-collapse .nav>li>a.active {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .nav>li.active>a {
-        color: #ffffff
-    }
-    .header-10 .navbar .nav-collapse .nav>li.active>a:hover,
-    .header-10 .navbar .nav-collapse .nav>li.active>a:focus,
-    .header-10 .navbar .nav-collapse .nav>li.active>a.active {
-        color: #ffffff
-    }
+
+
     .header-10 .navbar .nav-collapse .subnav {
         display: block;
         list-style: none
@@ -8536,3 +8439,65 @@ margin-top: 0px;
     text-decoration: none;
     font-weight: 100;
 }
+button.hamburger {
+    right: 0px;
+    position: absolute;
+    top: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+
+.content-23.content-23-new.primary-unit.v-center.bg-midnight-blue .hero-unit {
+    margin: 0px;
+    margin-top: -150px;
+    margin-bottom: -120px;
+}
+form.navbar-form {
+    display: none;
+}
+
+.nav-collapse.collapse.pull-right {
+    display: none;
+    visibility: visible;
+    top: 72px;
+    position: absolute;
+    left: 0px;
+    background: white;
+    height: 314px !important;
+    width: 100%;
+}
+.nav-collapse.collapse.pull-right.active {
+    display: block;
+}
+.nav-collapse ul.nav li {
+    display: block;
+    width: 216px;
+    overflow: hidden;
+    margin-left: 46px;
+}
+.nav-collapse ul.nav {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -30px !important;
+}
+.header-10 .navbar .nav>li>a {
+    border-bottom: none;
+}
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+button.hamburger {
+        display: none;
+    }
+}
+
+
+
