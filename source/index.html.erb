@@ -1,594 +1,403 @@
-<!doctype html>
-<!--[if lt IE 9 ]><html class=ie8><![endif]-->
-<!--[if IE 9 ]><html class=ie9><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html class="">
-<!--<![endif]-->
+<%= partial "header" %>
 
-<head>
-    <meta charset=utf-8>
-    <meta http-equiv="content-language" content="<#%= lang %>">
-    <meta name=viewport content="initial-scale=1.0, user-scalable=yes" />
-    <meta name=description content="Minority is a workflow managment tool for small teams and growing businesses. Try it for free.">
-    <meta property="og:url" content="https://minorityapp.com">
-    <meta property="og:site_name" content=Minority>
-    <meta property="og:title" content="Streamline Your Work Process">
-    <meta property="og:description" content="Minority is a workflow managment tool for small teams and growing businesses. Try it for free..">
-    <meta property="og:image" content="https://minorityapp.com/images/modules/open_graph/minority-logo.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content=1200>
-    <meta property="og:image:height" content=1200>
-    <meta property="og:image" content="https://minorityapp.com/images/modules/open_graph/minority-logo.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content=1200>
-    <meta property="og:image:height" content=620>
-    <meta property="og:image" content="https://minorityapp.com/images/modules/open_graph/minority-logo.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content=1200>
-    <meta property="og:image:height" content=620>
-    <meta property="twitter:site" content=minority>
-    <meta property="twitter:site:id" content=13334762>
-    <meta property="twitter:creator" content=minority>
-    <meta property="twitter:creator:id" content=13334762>
-    <meta property="twitter:card" content=summary_large_image>
-    <meta property="twitter:title" content=Minority>
-    <meta property="twitter:description" content="Minority is a workflow managment tool for small teams and growing businesses. Try it for free.">
-    <meta property="twitter:image:src" content="https://minorityapp.com/images/modules/open_graph/minority-logo.png">
-    <meta property="twitter:image:width" content=1200>
-    <meta property="twitter:image:height" content=1200>
-    <meta content="IE=edge,chrome=1" http-equiv=X-UA-Compatible>
-    <link href="https://refreshless.com/noUiSlider/distribute/nouislider.min.css" rel="stylesheet">
-    <link href="/stylesheets/animations.css" rel=stylesheet />
-    <link href="/stylesheets/bootstrap.css" rel=stylesheet />
-    <link href="/stylesheets/bootstrap-responsive.css" rel=stylesheet />
-    <link href="/stylesheets/flat-ui.css" rel=stylesheet />
-    <link href="/stylesheets/all.css" rel=stylesheet />
-    <link href="/stylesheets/demo.css" rel=stylesheet />
-    <link href="/stylesheets/component.css" rel=stylesheet />
-    <link href="/stylesheets/style.css" rel=stylesheet />
-    <link href="/stylesheets/icon-font.css" rel=stylesheet />
-    <script src="//load.sumome.com/" data-sumo-site-id=4ee1ebaa3f80cc0ec92fce7a83ae16d7f70dd659e9330f9730138dd91ca16ae7 async=async></script>
-    <style>
-.navbar-inner .social-btns.pull-left {
-  margin-top: 27px;
-  margin-right: -25px;
-  margin-left: 46px;
-}
 
-.social-btns {
-  white-space: nowrap;
-}
-.social-btns > * {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
-  font-size: 20px;
-  font-weight: normal;
-  color: #979c9f;
-  width: 20px;
-  height: 25px;
-  overflow: hidden;
-  text-align: center;
-}
-.social-btns > *:first-child {
-  margin-left: 0;
-}
-.social-btns > * > * {
-  display: block;
-  top: 0;
-  position: relative;
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: 0.25s top;
-  -moz-transition: 0.25s top;
-  -o-transition: 0.25s top;
-  transition: 0.25s top;
-}
-.social-btns > * > *:first-child {
-  color: #bdc3c7;
-}
-.social-btns > *:hover > * {
-  top: -100%;
-}</style>
-<link rel="shortcut icon" href="/favicon.ico">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic' rel=stylesheet>
-<!--[if lt IE 9]><script src="/javascripts/html5shiv.js"></script><![endif]-->
-<!DOCTYPE html>
-<html lang=en>
-
-<head>
-    <meta charset=utf-8>
-    <title>Minority</title>
-    <meta name=apple-mobile-web-app-capable content=yes />
-    <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name=apple-mobile-web-app-status-bar-style content=black />
-    <link rel="shortcut icon" href="/favicon.ico"> </head>
-
-<body>
-    <header class=header-10>
-        <div class=container>
-            <form class=navbar-form> <a class="btn bg-nephritis" href="https://min.ority.us/">Get started</a> </form>
-            <div class="navbar span12">
-                <div class=navbar-inner>
-                    <button type=button class="btn btn-navbar"></button>
-                    <a class=brand href="/">
-                        <div class=primary-logo>
-                            <div class=minority-svg-logo>
-                                <svg version="1.1" id=Layer_1 xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x=0px y=0px viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space=preserve>
-                                    <rect id=svgEditorBackground y="28.2" fill=none width=640 height="423.5"></rect>
-                                    <g id=workspace> </g>
-                                    <g transform="matrix(1 0 0 1 -7.105427357601002e-15 -1.7763568394002505e-15)">
-                                        <g id=_x23_fafafaff>
-                                            <path id=svg_1 fill=transparent d="M-0.4,28.7h640v423.5h-640V28.7 M88,196.4v181.2l122.9-99l-71.4-69.8l180.8,142.7l182.3-141.7l-71.4,70.8 l123.5,94.8V191.6l-116.2-91.2l-118.8,90.6l-116.2-90.1L88,196.4L88,196.4z"></path>
-                                        </g>
-                                        <g id=_x23_77787c> </g>
-                                    </g>
-                                    <polygon id=e1_polygon fill="#000000" points="88,377.6 88,196.3 203.6,100.9 319.8,191.1 438.6,100.4 554.8,191.6 554.8,375.5 431.3,280.7 502.7,209.8 320.3,351.5 139.6,208.8 210.9,278.6 "></polygon>
-                                </svg>
-                            </div> Minority </div>
-                    </a>
-                    <div class="nav-collapse collapse pull-right">
-                        <ul class=nav>
-                            <li class=active> </li>
-                            <li> <a href="/about">About</a> </li>
-                            <li> <a href="/prices">Pricing</a> </li>
-                            <li> <a href="/contacts">Contact</a> </li>
-                        </ul>
-                        <div class="social-btns pull-left">
-                            <a href="https://twitter.com/minority_app">
-                                <div class=fui-twitter></div>
-                                <div class=fui-twitter></div>
-                            </a>
-                            <a href="https://plus.google.com/u/0/+Minorityapp/posts">
-                                <div class=fui-googleplus></div>
-                                <div class=fui-googleplus></div>
-                            </a>
-                            <a href="https://www.facebook.com/minorityplatform">
-                                <div class=fui-facebook></div>
-                                <div class=fui-facebook></div>
-                            </a>
-                            <a href="https://www.linkedin.com/company/empire-incloud">
-                                <div class=fui-linkedin></div>
-                                <div class=fui-linkedin></div>
-                            </a>
+<section class="content-23 content-23-new primary-unit v-center bg-midnight-blue">
+    <div class="content-container primary-content-container">
+        <div class=content-container>
+            <div class=hero-unit>
+                <h1>Streamline Your Work Process</h1>
+                <p> Minority helps you adjust and manage your company's activities
+                    <br/> </p>
+            </div>
+            <div class=compare>
+                <div class='browser-window asana browser-window-compare'>
+                    <div class=top-bar>
+                        <div class=circles>
+                            <div class="circle circle-red"></div>
+                            <div class="circle circle-yellow"></div>
+                            <div class="circle circle-green"></div>
+                        </div>
+                    </div>
+                    <div class=content>
+                        <div class=task-trackers>
+                            <div class=task-project> Task tracker </div>
+                            <div class=task id=task1>
+                                <div class=task-check> </div>
+                                <div class="task-title yellor">Task A</div>
+                            </div>
+                            <div class=task id=task2 style="opacity: 0;">
+                                <div class=task-check> </div>
+                                <div class="task-title blue">Task B</div>
+                            </div>
+                            <div class=task id=task4 style="opacity: 0;">
+                                <div class=task-check> </div>
+                                <div class="task-title green">Task C</div>
+                            </div>
+                            <div class=task id=task5 style="opacity: 0;">
+                                <div class=task-check> </div>
+                                <div class="task-title green">Task D</div>
+                            </div>
+                            <div class=task id=task3 style="opacity: 0;">
+                                <div class=task-check> </div>
+                                <div class="task-title green">Last Task</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-<style>.navbar-inner .social-btns.pull-left {
-  margin-top: 27px;
-  margin-right: -25px;
-  margin-left: 46px;
-}
-
-.social-btns {
-  white-space: nowrap;
-}
-.social-btns > * {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 15px;
-  font-size: 20px;
-  font-weight: normal;
-  color: #979c9f;
-  width: 20px;
-  height: 25px;
-  overflow: hidden;
-  text-align: center;
-}
-.social-btns > *:first-child {
-  margin-left: 0;
-}
-.social-btns > * > * {
-  display: block;
-  top: 0;
-  position: relative;
-  -webkit-backface-visibility: hidden;
-  -webkit-transition: 0.25s top;
-  -moz-transition: 0.25s top;
-  -o-transition: 0.25s top;
-  transition: 0.25s top;
-}
-.social-btns > * > *:first-child {
-  color: #bdc3c7;
-}
-.social-btns > *:hover > * {
-  top: -100%;
-}
-.additional-links {
-  font-size: 12px;
-  font-weight: normal;
-  color: #bdc3c7;
-  text-align: center;
-}
-</style> </div> </div> </header> <style>
-.codrops-header, .pricing-section {
-    min-height: 100vh;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-.pricing-section {
-    padding: 2em 0 8em;
-    min-height: 85vh;
-    position: relative;
-}
-.pricing-section__title {
-    font-size: 1.4em;
-    font-weight: 700;
-    margin: 5em 0 2em;
-    flex: none;
-    color: white;
-}
-.pricing-section a {
-    color: #333;
-}
-
-.pricing-section a:hover,
-.pricing-section a:focus {
-    color: #000;
-}
-.pricing {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
-    margin: 0 auto 3em;
-    margin-top: 115px;
-    width: 46%;
-}
-
-
-.pricing__action:focus {
-    outline: none;
-}
-
-/* Individual styles */
-
-/* Sonam */
-.pricing--sonam .pricing__item {
-    padding: 2em 0;
-    width: 100%;
-    cursor: default;
-    border-radius: 0px;
-    background: #2c3e50;
-    border-bottom: solid 3px #202F3E;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-    text-align: center;
-    border-radius: 9px 9px 0px 0px;
-}
-.pricing--sonam .pricing__item:hover {
-   /* background: #141315; */
-}
-.pricing--sonam .pricing__title {
-    font-size: 2em;
-    width: 100%;
-    margin: 0 0 0.25em;
-    padding: 0 0 0.5em;
-    border-bottom: 3px solid #202F3E;
-    color: white;
-    text-align: center;
-}
-.pricing--sonam .pricing__price {
-    color: #079493;
-    font-size: 1.75em;
-    padding: 1em 0 0.75em;
-}
-.pricing--sonam .pricing__sentence {
-    font-weight: bold;
-}
-.pricing--sonam .pricing__feature-list {
-    margin: 0;
-    padding: 1em 1.25em 2em;
-    list-style: none;
-}
-.pricing--sonam .pricing__action {
-    font-weight: bold;
-    margin-top: auto;
-    padding: 0.75em 2em;
-    border-radius: 5px;
-    background: #E06060;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-}
-.pricing--sonam .pricing__action:hover,
-.pricing--sonam .pricing__action:focus {
-    /* background: #BD3C3C;*/
-}
-.pricing--sonam .pricing__action {
-    font-weight: bold;
-    margin-top: auto;
-    padding: 0.75em 2em;
-    border-radius: 5px;
-    background: #E06060;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-    margin-top: auto;
-}
-.pricing__action {
-    color: inherit;
-    border: none;
-    background: none;
-}
-.pricing-section__title {
-    font-size: 1.4em;
-    font-weight: 700;
-    margin: 3em 0 5em;
-    flex: none;
-    color: white;
-}
-.bg-1 {
-    /*
-    background: #1B1A1C;
-    */
-    background-size: cover;
-    color: #fff !important;
-}
-button.pricing__action {
-    display: none;
-}
-li.pricing__feature {
-    margin-bottom: 11px;
-}
-section.pricing-section .pricing__slot {
-    margin-bottom: 10px;
-    padding: 2em 2em 2em 2em;
-    cursor: default;
-    border-radius: 0px;
-    background: #1F1F1F;
-    box-shadow: none;
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-    text-align: center;
-    margin-top: -68px;
-    border-top: 3px solid #202F3E;
-    font-size: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05), 0 15px 30px -10px rgba(0,0,0,0.3);
-    -webkit-transition: background 0.3s;
-    transition: background 0.3s;
-    text-align: center;
-    width: 46%;
-    border-radius: 0px 0px 8px 8px;
-    background: #2c3e50;
-    margin: -50px auto 3em;
-}
-section.pricing-section .pricing__slot:hover {
-    /* background: #141315;*/
-}
-.price-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all.ui-slider-pips {
-    background: #4B5156;
-    margin-top: 26px;
-}
-.ui-slider-pips:not(.ui-slider-disabled) .ui-slider-pip:hover .ui-slider-label, .price-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all.ui-slider-pips:hover {
-    color: #48c9b0 !important;
-}
-.get-started {
-    margin-top: 50px;
-    padding-bottom: 9px;
-    color: white;
-    width: 100%;
-}
-.get-started a.btn.bg-nephritis {
-    color: white;
-    margin: 0 auto;
-    display: block;
-    width: 182px;
-}
-section.free-options.bg-1 {
-    display: block;
-    text-align: center;
-    padding-bottom: 215px;
-    width: 58%;
-    margin: 0 auto;
-    margin-top: -137px;
-    padding-top: 2px;
-    border-radius: 5px;
-    color: black !important;
-}
-section.free-options.bg-1 h2.pricing-section__title {
-    margin-bottom: 31px;
-    font-size: 2em;
-    width: 100%;
-    margin-top: 21px;
-    color: black;
-    text-align: center;
-}
-section.free-options.bg-1 .free-option__container {
-    text-align: center;
-    line-height: 26px;
-}
-section.content-23.price-page.v-center.bg-midnight-blue {
-    background-color: rgba(52, 73, 94, 0.05);
-}
-.pricing-box {
-    width: 100%;
-    margin: 0 auto;
-    /* display: inline; */
-}
-</style>
-
-    <script src="https://refreshless.com/noUiSlider/distribute/nouislider.js"></script>
-
-<section class="content-23 price-page v-center bg-midnight-blue">
-
-
-
-    <div>
-        <div class=container>
-        <div id="plans" class="medium-9 large-9 medium-centered columns pricing-v2">
-                        <div class="pricing-box">
-                            <div class="pricing-box-header">
-                                <input class="input-radio" name="plan_type" id="plan-m" value="1" type="radio"><label for="plan-m">Bill Monthly</label>
-                                <input class="input-radio" name="plan_type" id="plan-y" value="2" type="radio"><label for="plan-y">Bill Annually <strong>- Save 10%</strong></label>
-                            </div>
-                            <div id="plans-list">
-
-                <ul class="pricing-units">
-                    <li class="unit-col unit-totalpeople">
-                        <label class="plan-box plan-list" data-count="10">
-                            <p data-value="5.00" class="box-value" id="people-count">5</p>
-                            <p class="box-desc">Total people</p>
-                        </label>
-                    </li>
-                    <li class="unit-col unit-pricepeople">
-                        <label class="plan-box">
-                            <p class="box-value" id="price-per-person">$9.50</p>
-                            <p class="box-desc">Per person</p>
-                            <!--<p class="box-discount" style="invisible" data-discount="10">-->
-                            <!--<span class="discount-value">10%</span> small team discount</p> --> 
-                        </label>
-                    </li>
-                    <li class="unit-col unit-total">
-                        <label class="plan-box">
-                            <div style="display: block;" class="box-total">
-                                <p class="box-value total-price" id="price-total">$22.50</p>
-                                <p class="box-desc">Per <span id="pay-method">month</span></p>
-                            </div>
-                            <a href="mailto:paul@minorityapp.com.com" class="box-contact" style="display: none;">Contact our Enterprise team</a>
-                        </label>
-                    </li>
-                </ul>
-
-                            </div>
+                <div class='browser-window minority browser-window-compare'>
+                    <div class=top-bar>
+                        <div class=circles>
+                            <div class="circle circle-red"></div>
+                            <div class="circle circle-yellow"></div>
+                            <div class="circle circle-green"></div>
                         </div>
-                        <div class="pricing-scale">
-                            <div class="slider-container">
-                                <div id="range" class="slider noUi-target noUi-ltr noUi-horizontal noUi-background"><i class="slider-mark " style="left: calc(0% - 9px); height: 15px;"></i><i class="slider-mark " style="left: calc(5.882352941176471% - 9px); height: 15.333333333333334px;"></i><i class="slider-mark " style="left: calc(11.764705882352942% - 9px); height: 15.666666666666666px;"></i><i class="slider-mark " style="left: calc(17.647058823529413% - 9px); height: 16px;"></i><i class="slider-mark " style="left: calc(23.529411764705884% - 9px); height: 16.333333333333332px;"></i><i class="slider-mark " style="left: calc(29.411764705882355% - 9px); height: 16.666666666666668px;"></i><i class="slider-mark " style="left: calc(35.294117647058826% - 9px); height: 17px;"></i><i class="slider-mark " style="left: calc(41.1764705882353% - 9px); height: 17.333333333333332px;"></i><i class="slider-mark " style="left: calc(47.05882352941177% - 9px); height: 17.666666666666668px;"></i><i class="slider-mark " style="left: calc(52.94117647058824% - 9px); height: 18px;"></i><i class="slider-mark " style="left: calc(58.82352941176471% - 9px); height: 18.333333333333332px;"></i><i class="slider-mark " style="left: calc(64.70588235294119% - 9px); height: 18.666666666666668px;"></i><i class="slider-mark " style="left: calc(70.58823529411765% - 9px); height: 19px;"></i><i class="slider-mark " style="left: calc(76.47058823529412% - 9px); height: 19.333333333333332px;"></i><i class="slider-mark " style="left: calc(82.3529411764706% - 9px); height: 19.666666666666668px;"></i><i class="slider-mark " style="left: calc(88.23529411764707% - 9px); height: 20px;"></i><i class="slider-mark " style="left: calc(94.11764705882354% - 9px); height: 20.333333333333332px;"></i><i class="slider-mark " style="left: calc(100% - 9px); height: 20.666666666666668px;"></i>
-                                <!--
-                                <div class="noUi-base">
-                                <div style="left: 0%;" class="noUi-origin"><div class="noUi-handle noUi-handle-lower animated shake"><div class="pricing-box-tick"></div></div></div></div>-->
-
+                    </div>
+                    <div class=content>
+                        <div class=workflow-concepts>
+                            <div class=workflow-project> Workflows </div>
+                            <div class=workflow id=workflow1>
+                                <div class=workflow-title>Path A</div>
+                                <div class=workflow-elements>
+                                    <div class="workflow-element green">A</div>
+                                    <div class="workflow-element yellor">B</div>
+                                    <div class="workflow-element blue">C</div>
+                                    <div class="workflow-element purple">D</div>
+                                    <div class="workflow-element pink">E</div>
+                                </div>
+                                <div class=workflow-button></div>
+                                <div class=workflow-results>
+                                    <div class=workflow-result>
+                                        <div class=workflow-result-rate style="width: 20%"></div>
+                                        <div class=workflow-result-rate-title>Slow</div>
+                                    </div>
+                                    <div class=workflow-result>
+                                        <div class=workflow-result-rate style="width: 12%"></div>
+                                        <div class=workflow-result-rate-title>Bad</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-
-
-                        </div>
-</div>
-
-
-
-<!--
-            <section class="pricing-section bg-1">
-                <div class=pricing-box>
-                    <div class="pricing pricing--sonam">
-                        <div class=pricing__item>
-                            <h3 class=pricing__title>One</h3>
-                            <div class=pricing__price><span class=pricing__currency>$</span><span class=total-price>55</span>
+                            <div class=workflow id=workflow2>
+                                <div class=workflow-title>Path B</div>
+                                <div class=workflow-elements>
+                                    <div class="workflow-element yellor">B</div>
+                                    <div class="workflow-element green">A</div>
+                                    <div class="workflow-element purple">D</div>
+                                    <div class="workflow-element blue">C</div>
+                                    <div class="workflow-element pink">E</div>
+                                </div>
+                                <div class=workflow-button></div>
+                                <div class=workflow-results>
+                                    <div class=workflow-result>
+                                        <div class=workflow-result-rate></div>
+                                        <div class=workflow-result-rate-title>Good</div>
+                                    </div>
+                                    <div class=workflow-result>
+                                        <div class=workflow-result-rate></div>
+                                        <div class=workflow-result-rate-title>Outstanding</div>
+                                    </div>
+                                </div>
                             </div>
-                            <p class=pricing__sentence>One for all</p>
-                            <ul class=pricing__feature-list>
-                                <li class=pricing__feature><span class=employee-num>5</span> employees included</li>
-                                <li class=pricing__feature>Unlimited process launch </li>
-                                <li class=pricing__feature>24/7 Support</li>
-                            </ul>
-                            <button class=pricing__action>Choose plan</button>
+                            <div class=workflow-result> </div>
                         </div>
                     </div>
-                    <div class=pricing__slot>$6 per additional employee.
-                        <div class=price-slider></div>
+                </div>
+            </div>
+        </div>
+        <section id=subscribtionbox style="display:none;" class="section full-cta grey">
+            <div class=content>
+                <div class=section-heading>
+                    <div class="subscribe-form mc_embed_signup">
+                        <form action="//empireinc.us5.list-manage.com/subscribe/post?u=141c1b3291fd461fbe97103c0&amp;id=6cb531884f" method=post id=mc-embedded-subscribe-form name=mc-embedded-subscribe-form class=validate target=_blank novalidate>
+                            <div class="mc-field-group input-append">
+                                <input type=email value="" name=EMAIL class="span4 required email" id=mce-EMAIL placeholder="Enter your email address">
+                                <input type=submit value=Subscribe name=subscribe id=mc-embedded-subscribe class="button btn green marquee-btn"> </div>
+                            <div id=mce-responses class=clear>
+                                <div class=response id=mce-error-response style="display:none"></div>
+                                <div class=response id=mce-success-response style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name=b_141c1b3291fd461fbe97103c0_6cb531884f tabindex=-1 value="">
+                            </div>
+                            <div class=clear></div>
+                        </form>
                     </div>
                 </div>
-                <div class=get-started style="display: none;"> <a class="btn bg-nephritis" href="https://min.ority.us/">Start for FREE</a> </div>
-            </section>
-            -->
-            <section class="free-options bg-1">
-                <h2 class=pricing-section__title>Free plan</h2>
-                <div class=free-option__container>
-                    <div class=free-option__title>You can use Minority for free forever!</div>
-                    <div class=free-option__limit>You may create 3 process without collaborators and start making models right now!</div>
-                    <div class=get-started> <a class="btn bg-nephritis" href="https://min.ority.us/">Start for FREE</a> </div>
+        </section>
+        <div class=compare-motto> Turn chaotic tasks into clear workflow </div>
+</section>
+<style>
+    ul.case-list {
+        display: none;
+    }
+</style>
+
+
+<section class="section whatis-section all-in-one grey-gradient">
+<div class="content">
+<p>The point is that any working activity is compound from actions, the basic units; and so this is a platform for describing those actions and repeat activity. Unlike the project management, where the point in one plan for one run, workflow management is for the world where's already mined enough data to describe a good work process and run through it multiple times. The real work is reiteration of actions for producing value, not the reinventing the wheel. </p>
+</div>
+</section>
+
+<section class="section all-in-one grey-gradient">
+    <div class=content>
+        <div class=columns>
+            <div class=col-3>
+                <div class=bucket style="height: 249px;">
+                    <h3>Take a clearer look at your work process</h3>
+                    <p>By describing and managing your workflow you can discover areas that need to be improved</p>
                 </div>
+            </div>
+            <div class=col-3>
+                <div class=bucket style="height: 249px;">
+                    <h3>Always know the status of work</h3>
+                    <p>With real time information about your latest work progress you can better prepare for what's next</p>
+                </div>
+            </div>
+            <div class=col-3>
+                <div class=bucket style="height: 249px;">
+                    <h3>See the overall picture of spendings</h3>
+                     <p>Manage and track your spending. Allocate resources for each step of your project to stay within your budget</p>
+                </div>
+            </div>
+            <div class=col-3>
+                <div class=bucket style="height: 249px;">
+                                    <h3>Collaborate the way that works for you</h3>
+                                   <p>Add team members on the project you're working on to better coordinate with each other</p>                 </div>
+            </div>
+            <div class="col-3 col-downed">
+                <div class=bucket style="height: 249px;">
+                    <h3>Adjust your process elements as you want</h3>
+                    <p>Whether it API or part of code, put it in the process element for execution</p>
+                    <div class=coming-soon>Coming soon</div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id=features class=features>
+    <div class=container>
+        <header class="clearfix usecases-title"> <a href="/cases">Use cases</a> </header>
+        <div id=cbp-so-scroller class="cbp-so-scroller use-cases-section">
+            <style>
+                .fs1.icon-pencil,
+                .fs1.icon-chat {
+                    width: auto;
+                    height: auto;
+                }
+            </style>
+            <section class=cbp-so-section>
+                <figure class="cbp-so-side cbp-so-side-left">
+                    <div class="fs1 icon-pencil" aria-hidden=true></div>
+                </figure>
+                <article class="cbp-so-side cbp-so-side-right">
+                    <h2>Understand Your Workflow Better</h2>
+                    <p>The success of any business lies in properly assessing the workflow. Minority gives you the much needed analysis and insight on every single step of how your work processes operate. Utilizing this knowledge, your team is now ready to be more productive, more accurate and more successful in your upcoming projects.</p>
+                </article>
+            </section>
+            <section class=cbp-so-section>
+                <figure class="cbp-so-side cbp-so-side-left">
+                    <div class="fs1 icon-chat" aria-hidden=true data-sicon=""></div>
+                </figure>
+                <article class="cbp-so-side cbp-so-side-right">
+                    <h2>Show Clients That You're Worth It</h2>
+                    <p>Minority provides you with a way to transparently track your performance on previous projects. You can now showcase your expertise, punctuality and productivity to your potential clients, increasing your chances of successfully landing a new customer.</p>
+                </article>
             </section>
         </div>
     </div>
 </section>
-<footer class=footer-3>
-    <div class=container>
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class=brand-logos>
-                        <div class=footer-logo>
-                            <svg version="1.1" id=header_logotype xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x=0px y=0px viewBox="0 0 640 480" enable-background="new 0 0 640 480" xml:space=preserve>
-                                <rect id=svgEditorBackground y="28.2" fill=none width=640 height="423.5" style=" "></rect>
-                                <g id=workspace> </g>
-                                <g id=outerLayer transform="matrix(1 0 0 1 -7.105427357601002e-15 -1.7763568394002505e-15)" style=" fill: white; ">
-                                    <g id=_x23_fafafaff>
-                                        <path id=svg_1 d="M-0.4,28.7h640v423.5h-640V28.7 M88,196.4v181.2l122.9-99l-71.4-69.8l180.8,142.7l182.3-141.7l-71.4,70.8 l123.5,94.8V191.6l-116.2-91.2l-118.8,90.6l-116.2-90.1L88,196.4L88,196.4z"></path>
-                                    </g>
-                                    <g id=_x23_77787c> </g>
-                                </g>
-                                <polygon id=e1_polygon fill="#F0E68C" points="88,377.6 88,196.3 203.6,100.9 319.8,191.1 438.6,100.4 554.8,191.6 554.8,375.5 431.3,280.7 502.7,209.8 320.3,351.5 139.6,208.8 210.9,278.6 "></polygon>
-                            </svg>
-                        </div> <a class=brand href="https://minorityapp.com">Minority</a> </div>
-                </div>
-            </div>
-            <div class=footer-menu>
-                <div class="">
-                    <ul class=footer-nav>
-                        <li> <a href="/cases">Use cases</a> </li>
-                        <li> <a href="/contacts">Contact</a> </li>
-                    </ul>
-                    <div class=additional-links> </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <h6></h6>
-                    <div class="social-btns pull-right">
-                        <a href="https://twitter.com/minority_app">
-                            <div class=fui-twitter></div>
-                            <div class=fui-twitter></div>
-                        </a>
-                        <a href="https://plus.google.com/u/0/+Minorityapp/posts">
-                            <div class=fui-googleplus></div>
-                            <div class=fui-googleplus></div>
-                        </a>
-                        <a href="https://www.facebook.com/minorityplatform">
-                            <div class=fui-facebook></div>
-                            <div class=fui-facebook></div>
-                        </a>
-                        <a href="https://www.linkedin.com/company/empire-incloud">
-                            <div class=fui-linkedin></div>
-                            <div class=fui-linkedin></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
 
-</html>
-<script src="/javascripts/jquery-1.10.2.min.js"></script>
-<script src="/javascripts/jquery.parallax.min.js"></script>
-<script src="/javascripts/jquery.scrollTo-1.4.3.1-min.js"></script>
-<script src="/javascripts/jquery.svg.js"></script>
-<script src="/javascripts/jquery.svganim.js"></script>
-<script src="/javascripts/jquery.backgroundvideo.min.js"></script>
-<script src="/javascripts/cbpScroller.js"></script>
-<script src="/javascripts/modernizr.custom.js"></script>
-<script src="/javascripts/classie.js"></script>
-<script src="/javascripts/vide.js"></script>
-<script src="/javascripts/all.js"></script>
-<script src="/javascripts/easing.min.js"></script>
-<script src="/javascripts/page-transitions.js"></script>
-<script src="/javascripts/startup-kit.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.js"></script>
+
+
+
+
+<section id="subscribtionbox" class="section full-cta grey">
+    <div class="content">
+      <div class="section-heading">
+        <h2>Get started</h2>
+        <h3></h3>
+        <div class="subscribe-form mc_embed_signup">
+      <form action="//empireinc.us5.list-manage.com/subscribe/post?u=141c1b3291fd461fbe97103c0&amp;id=6cb531884f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="mc-field-group input-append">
+          <a href="https://min.ority.us/signUp" id="mc-embedded-subscribe" class="button btn green marquee-btn">Start</a>
+      </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_141c1b3291fd461fbe97103c0_6cb531884f" tabindex="-1" value=""></div>
+          <div class="clear"></div>
+      </form>
+      </div>
+    </div>
+</section>
+
+
+<%= partial "footer" %>
+
+
+<script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+
 <script>
-  new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
-</script>
-<script>
+$( document ).ready(function() {
+
+!function(t){"use strict";var s=function(s,e){this.el=t(s),this.options=t.extend({},t.fn.typed.defaults,e),this.isInput=this.el.is("input"),this.attr=this.options.attr,this.showCursor=this.isInput?!1:this.options.showCursor,this.elContent=this.attr?this.el.attr(this.attr):this.el.text(),this.contentType=this.options.contentType,this.typeSpeed=this.options.typeSpeed,this.startDelay=this.options.startDelay,this.backSpeed=this.options.backSpeed,this.backDelay=this.options.backDelay,this.stringsElement=this.options.stringsElement,this.strings=this.options.strings,this.strPos=0,this.arrayPos=0,this.stopNum=0,this.loop=this.options.loop,this.loopCount=this.options.loopCount,this.curLoop=0,this.stop=!1,this.cursorChar=this.options.cursorChar,this.shuffle=this.options.shuffle,this.sequence=[],this.build()};s.prototype={constructor:s,init:function(){var t=this;t.timeout=setTimeout(function(){for(var s=0;s<t.strings.length;++s)t.sequence[s]=s;t.shuffle&&(t.sequence=t.shuffleArray(t.sequence)),t.typewrite(t.strings[t.sequence[t.arrayPos]],t.strPos)},t.startDelay)},build:function(){var s=this;if(this.showCursor===!0&&(this.cursor=t('<span class="typed-cursor">'+this.cursorChar+"</span>"),this.el.after(this.cursor)),this.stringsElement){s.strings=[],this.stringsElement.hide();var e=this.stringsElement.find("p");t.each(e,function(e,i){s.strings.push(t(i).html())})}this.init()},typewrite:function(t,s){if(this.stop!==!0){var e=Math.round(70*Math.random())+this.typeSpeed,i=this;i.timeout=setTimeout(function(){var e=0,r=t.substr(s);if("^"===r.charAt(0)){var o=1;/^\^\d+/.test(r)&&(r=/\d+/.exec(r)[0],o+=r.length,e=parseInt(r)),t=t.substring(0,s)+t.substring(s+o)}if("html"===i.contentType){var n=t.substr(s).charAt(0);if("<"===n||"&"===n){var a="",h="";for(h="<"===n?">":";";t.substr(s).charAt(0)!==h;)a+=t.substr(s).charAt(0),s++;s++,a+=h}}i.timeout=setTimeout(function(){if(s===t.length){if(i.options.onStringTyped(i.arrayPos),i.arrayPos===i.strings.length-1&&(i.options.callback(),i.curLoop++,i.loop===!1||i.curLoop===i.loopCount))return;i.timeout=setTimeout(function(){i.backspace(t,s)},i.backDelay)}else{0===s&&i.options.preStringTyped(i.arrayPos);var e=t.substr(0,s+1);i.attr?i.el.attr(i.attr,e):i.isInput?i.el.val(e):"html"===i.contentType?i.el.html(e):i.el.text(e),s++,i.typewrite(t,s)}},e)},e)}},backspace:function(t,s){if(this.stop!==!0){var e=Math.round(70*Math.random())+this.backSpeed,i=this;i.timeout=setTimeout(function(){if("html"===i.contentType&&">"===t.substr(s).charAt(0)){for(var e="";"<"!==t.substr(s).charAt(0);)e-=t.substr(s).charAt(0),s--;s--,e+="<"}var r=t.substr(0,s);i.attr?i.el.attr(i.attr,r):i.isInput?i.el.val(r):"html"===i.contentType?i.el.html(r):i.el.text(r),s>i.stopNum?(s--,i.backspace(t,s)):s<=i.stopNum&&(i.arrayPos++,i.arrayPos===i.strings.length?(i.arrayPos=0,i.shuffle&&(i.sequence=i.shuffleArray(i.sequence)),i.init()):i.typewrite(i.strings[i.sequence[i.arrayPos]],s))},e)}},shuffleArray:function(t){var s,e,i=t.length;if(i)for(;--i;)e=Math.floor(Math.random()*(i+1)),s=t[e],t[e]=t[i],t[i]=s;return t},reset:function(){var t=this;clearInterval(t.timeout);var s=this.el.attr("id");this.el.after('<span id="'+s+'"/>'),this.el.remove(),"undefined"!=typeof this.cursor&&this.cursor.remove(),t.options.resetCallback()}},t.fn.typed=function(e){return this.each(function(){var i=t(this),r=i.data("typed"),o="object"==typeof e&&e;r||i.data("typed",r=new s(this,o)),"string"==typeof e&&r[e]()})},t.fn.typed.defaults={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],stringsElement:null,typeSpeed:0,startDelay:0,backSpeed:0,shuffle:!1,backDelay:500,loop:!1,loopCount:!1,showCursor:!0,cursorChar:"|",attr:null,contentType:"html",callback:function(){},preStringTyped:function(){},onStringTyped:function(){},resetCallback:function(){}}}(window.jQuery);
+});
+</script> <script>
+function randomString(length, chars) {
+    var mask = '';
+    if (chars.indexOf('a') > -1) mask += 'abcdefghijklmnopqrstuvwxyz';
+    if (chars.indexOf('A') > -1) mask += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    if (chars.indexOf('#') > -1) mask += '0123456789';
+    if (chars.indexOf('!') > -1) mask += '~`!@#$%^&*()_+-={}[]:";\'<>?,./|\\';
+    var result = '';
+    for (var i = length; i > 0; --i) result += mask[Math.floor(Math.random() * mask.length)];
+    return result;
+}
+
+
+var workFlow1Count = 0;
+var workFlow2Count = 0;
+var animateIndex = 5;
+var eraseIndex = 4;
+
+var cloneElem = function(el, appendTo, workflowId) {
+          var el = el.clone().hide();
+          var elnew = el.appendTo( appendTo );
+          if (workflowId === '1') {
+            var rate = getRandomInt(10,20)+'%'
+          } else {
+            var rate = getRandomInt(30,50)+'%'
+          }
+          setTimeout(function() {
+              elnew.hide().fadeIn(1000);
+              $(elnew).find('.workflow-result-rate').css({width: "10%"});
+              Velocity($(elnew).find('.workflow-result-rate'), { width: "75%" },
+                {delay: getRandomInt(500,2000)})
+          });
+}
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+var animateWorkflow = function(workflowId) {
+  if (workflowId === "1") {
+    workFlow1Count = workFlow1Count+1;
+    if (workFlow1Count <= animateIndex) {
+    if ($( "#workflow1 .workflow-results .workflow-result" ).length < 4) {
+
+          cloneElem($( "#workflow1 .workflow-results .workflow-result" ).first(),
+                    "#workflow1 .workflow-results", '1')
+    } else {
+      if ($( "#workflow1 .workflow-results .workflow-result" ).length == eraseIndex) {
+        $( "#workflow1 .workflow-results .workflow-result" ).first().remove();
+      };
+    }
+    } else { workFlow1Count = 0; }
+
+  }
+  if (workflowId === "2") {
+    workFlow2Count = workFlow2Count+1;
+    if (workFlow2Count <= animateIndex) {
+    if ($( "#workflow2 .workflow-results .workflow-result" ).length < 4) {
+
+    cloneElem($( "#workflow2 .workflow-results .workflow-result" ).first(),
+              "#workflow2 .workflow-results", '2')
+
+    } else {
+      if ($( "#workflow2 .workflow-results .workflow-result" ).length == eraseIndex) {
+          $( "#workflow2 .workflow-results .workflow-result" ).first().remove();
+      }
+    }
+  } else { workFlow2Count = 0; }
+}
+
+}
+
+var animLoop = function() {
+  Velocity(document.getElementsByClassName('workflow-button')[0], { opacity: 0.5 }, {
+    loop: false, //delay: 3000,
+    complete: function(elements) {//progress: function(elements, complete, remaining, start, tweenValue) {
+      animateWorkflow('1');
+    },
+
+  } );
+
+
+  Velocity(document.getElementsByClassName('workflow-button')[1], { opacity: 0.5 }, {
+    loop: false, //delay: 3000,
+    complete: function(elements) {//progress: function(elements, complete, remaining, start, tweenValue) {
+      animateWorkflow('2');
+    },
+  } );
+}
+
+window.setTimeout(function(){
+function z(){
+   $( "#task1 .task-title" ).typed({
+    strings: ["Task "+randomString(1, 'A'), "", "Task "+randomString(1, 'A'), "", "Task "+randomString(1, 'A')],
+    loop:false,
+    typeSpeed: 100,
+    contentType: 'text'
+  });
+ $( "#task2 .task-title" ).typed({
+    strings: ["Task "+randomString(1, 'A'), "", "Task "+randomString(1, 'A'), "", "Task "+randomString(1, 'A')],
+    loop:false,
+    typeSpeed: 400,
+    contentType: 'text'
+});
+ Velocity($( "#task2" ) , { opacity: "1" }, {loop: false, delay: 1000});
+}
+z();
+
+console.log('z')
+
+}, 3000)
+
+$( document ).ready(function() {
+setInterval(function() {
+  animLoop();
+
+
+}, 4000);
+
+
+  Velocity($( "#task1 .task-check" ) , { backgroundColor: "#2ecc71" }, {loop: false, delay: 5000})
+  Velocity($( "#task2 .task-check" ) , { backgroundColor: "#2ecc71" }, {loop: false, delay: 9000})
+  Velocity($( "#task4 .task-check" ),  { backgroundColor: "#2ecc71" }, {loop: false, delay: 14000})
+  Velocity($( "#task5 .task-check" ),  { backgroundColor: "#2ecc71" }, {loop: false, delay: 16000})
+  Velocity($( "#task3 .task-check" ),  { backgroundColor: "#2ecc71" }, {loop: false, delay: 18000})
+
+// Show tasks
+
+
+
+
+
+setTimeout(function() {
+
+ Velocity($( "#task2" ),  { opacity: "1" }, {loop: false, delay: 2000})
+ Velocity($( "#task4" ),  { opacity: "1" }, {loop: false, delay: 4000})
+ Velocity($( "#task5" ),  { opacity: "1" }, {loop: false, delay: 5000})
+ Velocity($( "#task3" ),  { opacity: "1" }, {loop: false, delay: 6000})
+
+ Velocity($( "#task2" ),  {     rotateZ: "25deg"}, {loop: false, delay: 7000})
+ Velocity($( "#task4" ),  {rotateZ: "8deg" }, {loop: false, delay: 8000})
+ Velocity($( "#task5" ),  { rotateZ: "-15deg" }, {loop: false, delay: 9000})
+ Velocity($( "#task3" ),  { rotateZ: "-5deg" }, {loop: false, delay: 10000})
+
+
+}, 4000);
+
+
+});
+
+
+
+</script> </body> </html> <script src="/javascripts/jquery-1.10.2.min.js"></script> <script src="/javascripts/jquery.parallax.min.js"></script> <script src="/javascripts/jquery.scrollTo-1.4.3.1-min.js"></script> <script src="/javascripts/jquery.svg.js"></script> <script src="/javascripts/jquery.svganim.js"></script> <script src="/javascripts/jquery.backgroundvideo.min.js"></script> <script src="/javascripts/cbpScroller.js"></script> <script src="/javascripts/modernizr.custom.js"></script> <script src="/javascripts/classie.js"></script> <script src="/javascripts/vide.js"></script> <script src="/javascripts/all.js"></script> <script src="/javascripts/easing.min.js"></script> <script src="/javascripts/page-transitions.js"></script> <script src="/javascripts/startup-kit.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/1.3.0/jquery.scrollmagic.js"></script> <script>
+      new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+    </script> <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -597,13 +406,8 @@ section.content-23.price-page.v-center.bg-midnight-blue {
   ga('create', 'UA-13037685-3', 'auto');
   ga('send', 'pageview');
 
-</script> <script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter30361492 = new Ya.Metrika({ id:30361492, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/30361492" style="position:absolute; left:-9999px;" alt=""/></div></noscript> <script src="https://imulus.github.io/retinajs/assets/retina.js"></script> 
-<script>
+</script> <script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter30361492 = new Ya.Metrika({ id:30361492, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/30361492" style="position:absolute; left:-9999px;" alt=""/></div></noscript> <script src="https://imulus.github.io/retinajs/assets/retina.js"></script> <script>
             $(document).ready(function($) {
-
-
-
-
               // init controller
               var controller = new ScrollMagic();
 
@@ -1739,56 +1543,11 @@ section.content-23.price-page.v-center.bg-midnight-blue {
     font-weight: bold;
     color: #079493;
 }
-</style> <script>
-
-var stepSlider = document.getElementById('range');
-
-noUiSlider.create(stepSlider, {
-    start: [ 1000 ],
-    step: 500, // 470
-    range: {
-        'min': [  2000 ],
-        'max': [ 10000 ]
-    }
-});
+</style> 
 
 
-//var nonLinearStepSliderValueElement = document.getElementById('slider-non-linear-step-value');
-var $radios = $('.pricing-box-header input:radio[name=plan_type]');
-if($radios.is(':checked') === false) {
-    $radios.filter('[value=1]').prop('checked', true);
-}
-
-$('.pricing-box-header input[type="radio"]').change(function() {
-  stepSlider.noUiSlider.set(1000);
-});
-
-stepSlider.noUiSlider.on('update', function( values, handle ) {
-//    nonLinearStepSliderValueElement.innerHTML = values[handle];
-               // 55 for 5
-           console.log('values', values);
-           console.log('handle', values[handle]);
-           var people_count = Math.floor(values[handle]/400);
-           var selected_price
-           if ($('.pricing-box-header input[type="radio"]:checked').val() == "1") {
-            selected_price = 9.50;
-           } else {
-            selected_price = 8.50;
-           }
-           
-           $('#people-count').text(people_count);
-
-           if (people_count > 24) {
-            $('.unit-totalpeople #people-count').text($('.unit-totalpeople #people-count').text()+'+'); 
-             $('#price-total').html('<a href="mailto:paul@minorityapp.com.com" class="box-contact" style="display: block;">Oh! Contact us</a>');
-             $('.unit-total .plan-box .box-desc').hide();
-           } else {
-             var new_price = "$"+people_count * selected_price;
-             $('#price-total').text(new_price);
-             $('.pricing__currency').text('$');
-             $('.unit-total .plan-box .box-desc').show();
-           }
-});
+<script src="/javascripts/script.js" type="text/javascript"></script>
+<script>
 
 
 
@@ -1818,4 +1577,8 @@ $(".price-slider")
     });
 
  $('.ui-slider-label[data-value="95"]').text('>95');
-</script> </body> </html>
+</script> 
+
+
+</body> 
+</html>
