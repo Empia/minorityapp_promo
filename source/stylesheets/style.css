@@ -548,6 +548,10 @@ p {
     line-height: 1.4642745000000001;
     font-weight: 300
 }
+section#features {
+    background: white;
+}
+
 small {
     font-size: 84%;
     line-height: 2.050846
