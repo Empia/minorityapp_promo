@@ -1108,9 +1108,9 @@ a#mc-embedded-subscribe {
 }
 
 .section.full-cta.grey {
-    padding: 39px 68px 96px 0px;
+    padding: 39px 68px 32px 0px;
     background: #16a085;
-    color: white
+    color: white;
 }
 .section.full-cta input#mc-embedded-subscribe {
     padding: 8px 25px;
@@ -1124,6 +1124,7 @@ a#mc-embedded-subscribe {
 }
 .full-cta h3 {
     font-size: 17px;
+    display: none;
     margin-bottom: 55px !important;
     color: white;
     padding-top: 10px;
