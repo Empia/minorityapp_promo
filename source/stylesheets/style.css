@@ -1232,7 +1232,11 @@ a#mc-embedded-subscribe {
     padding: 39px 68px 32px 0px;
     background: #16a085;
     color: white;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to left, #1D976C , #93F9B9);
+    background: linear-gradient(to left, #1D976C , #93F9B9);
 }
+
 .section.full-cta input#mc-embedded-subscribe {
     padding: 8px 25px;
     border: 2px solid white;
