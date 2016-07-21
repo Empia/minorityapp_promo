@@ -1235,10 +1235,7 @@ a#mc-embedded-subscribe {
     background: #1D976C;
     background: -webkit-linear-gradient(to left, #1D976C , #93F9B9);
     background: linear-gradient(to left, #1D976C , #93F9B9);
-    background-size: cover;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAO0lEQVQIW0WLQQ6AIADDOjz4e/wYPEC+QnRkIcYd205XHwZ4PSk6sSfSEYQ+GWA/QEm6ZW23pZwD/yVckP0XnrIiQn0AAAAASUVORK5CYII=");
 
-    
 }
 
 .section.full-cta input#mc-embedded-subscribe {
