@@ -1,4 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+    font-family: 'AvenirLTW02-85Heavy';
+    src: url('../fonts/AvenirLTW02-85Heavy.eot');
+    src: url('../fonts/AvenirLTW02-85Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTW02-85Heavy.woff') format('woff'),
+        url('../fonts/AvenirLTW02-85Heavy.ttf') format('truetype'),
+        url('../fonts/AvenirLTW02-85Heavy.svg#AvenirLTW02-85Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTW02-45Book';
+    src: url('../fonts/AvenirLTW02-45Book.eot');
+    src: url('../fonts/AvenirLTW02-45Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTW02-45Book.woff') format('woff'),
+        url('../fonts/AvenirLTW02-45Book.ttf') format('truetype'),
+        url('../fonts/AvenirLTW02-45Book.svg#AvenirLTW02-45Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTW01-35Light';
+    src: url('../fonts/AvenirLTW01-35Light.eot');
+    src: url('../fonts/AvenirLTW01-35Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTW01-35Light.woff') format('woff'),
+        url('../fonts/AvenirLTW01-35Light.ttf') format('truetype'),
+        url('../fonts/AvenirLTW01-35Light.svg#AvenirLTW01-35Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTW01-35LightOblique';
+    src: url('../fonts/AvenirLTW01-35LightOblique.eot');
+    src: url('../fonts/AvenirLTW01-35LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTW01-35LightOblique.woff') format('woff'),
+        url('../fonts/AvenirLTW01-35LightOblique.ttf') format('truetype'),
+        url('../fonts/AvenirLTW01-35LightOblique.svg#AvenirLTW01-35LightOblique') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirLTW02-65Medium';
+    src: url('../fonts/AvenirLTW02-65Medium.eot');
+    src: url('../fonts/AvenirLTW02-65Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTW02-65Medium.woff') format('woff'),
+        url('../fonts/AvenirLTW02-65Medium.ttf') format('truetype'),
+        url('../fonts/AvenirLTW02-65Medium.svg#AvenirLTW02-65Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 
 @font-face {
     font-family: TitilliumText;
@@ -571,7 +627,7 @@ font-weight:700;
 body {
     color: #34495e;
     background: #323f4c;
-    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-family: AvenirLTW02-45Book, Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.231
 }
@@ -1803,9 +1859,14 @@ header.header-10 {
 }
 .navbar .nav>li {
     float: left;
-    font-family: 'futura-pt', 'Whitney', 'Proxima Nova Th', 'futura_ltlight', helvetica;
+    font-family: AvenirLTW02-85Heavy;
     font-weight: 100
 }
+navbar-form a.btn.bg-nephritis {
+    font-family: 'AvenirLTW02-85Heavy';
+    font-size: 16px;
+}
+
 .header-10 .navbar .nav>li:first-child {
     margin-left: 0
 }
@@ -1817,6 +1878,11 @@ header.header-10 {
     font-weight: 600;
     color: #373737
 }
+.header-10.whitetext .navbar .nav>li>a:hover {
+    color: #80a4e4;
+    transition: 1s all;
+}
+
 .header-10 .navbar .nav>li>a:hover,
 .header-10 .navbar .nav>li>a:focus,
 .header-10 .navbar .nav>li>a.active {
@@ -2412,7 +2478,7 @@ header.header-10 {
     }
 }
 .content-23 .hero-unit h1 {
-    font-family: 'proxima_nova_rgregular', sans-serif;
+    font-family: 'AvenirLTW02-45Book', sans-serif;
     font-size: 70px;
     line-height: 57px;
     font-weight: 100;
@@ -2420,7 +2486,7 @@ header.header-10 {
 .content-23 .hero-unit p {
     margin-bottom: 20px;
     margin-top: 40px;
-    font-family: 'proxima_nova_rgregular', sans-serif;
+    font-family: 'AvenirLTW02-45Book', sans-serif;
     font-size: 20px
 }
 .footer-3 {
