@@ -1941,3 +1941,80 @@ display: none;
     right: 16px;
     top: 188px;
 }
+.peoples-window {
+    width: 100%;
+    background: red;
+    height: 270px;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    border-radius: 3px;
+}
+
+.peoples-window .team-bar {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    background: #2b2f3e;
+    height: 100%;
+}
+
+.peoples-window .peoples-bar {
+    background: white;
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.peoples-window .peoples-bar .people {
+    display: inline-block;
+    background: #c7c7c7;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 22px;
+}
+.peoples-window .peoples-bar .create-people {
+    background: #16a085;
+    width: 10%;
+    position: absolute;
+    left: 0%;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-shadow: none;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    margin-top: 0px;
+}
+.peoples-window .peoples-bar .people img {
+    width: 100%;
+    height: 100%;
+}
+
+.peoples-window .team-bar .team {
+    display: block;
+    background: #384473;
+    width: 100%;
+    height: 13px;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.peoples-window .team-bar .team:first-child {
+    background: #4b5fab;
+}
+
+.peoples-window .team-bar .team:after {
+    content: '';
+    width: 40%;
+    height: 30%;
+    display: block;
+    background: #898fa7;
+    top: 35%;
+    left: 30%;
+    position: absolute;
+}
