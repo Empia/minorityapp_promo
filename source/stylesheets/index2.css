@@ -1943,7 +1943,6 @@ display: none;
 }
 .peoples-window {
     width: 100%;
-    background: red;
     height: 270px;
     display: block;
     overflow: hidden;
@@ -1976,10 +1975,10 @@ display: none;
     margin: 22px;
 }
 .peoples-window .peoples-bar .create-people {
-    background: #16a085;
+    background: #1abc9c;
     width: 10%;
     position: absolute;
-    left: 0%;
+    right: 5%;
     font-weight: 900;
     color: white;
     text-align: center;
@@ -1987,7 +1986,7 @@ display: none;
     text-shadow: none;
     font-family: 'Open Sans';
     font-size: 11px;
-    margin-top: 0px;
+    margin-top: 7px;
 }
 .peoples-window .peoples-bar .people img {
     width: 100%;
