@@ -1830,7 +1830,6 @@ display: none;
     width: 88%;
     padding: 5px 42px;
     background: white;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
     font-family: 'Open Sans';
     position: relative;
 }
@@ -1901,7 +1900,6 @@ display: none;
     margin-bottom: 18px;
     text-align: left;
     border-radius: 2px;
-    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.32);
 }
 .create-element-types-select .type .type-content {
     padding: 7px 15px;
