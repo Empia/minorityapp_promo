@@ -1832,6 +1832,7 @@ display: none;
     background: white;
     font-family: 'Open Sans';
     position: relative;
+    border-radius: 3px;
 }
 
 .create-elem-form-box .icon-create-new-elem-field {
@@ -1886,11 +1887,11 @@ display: none;
  Section 2 type select
  */
 .create-element-types-select {
-    display: block;
-    clear: both;
-    width: 88%;
-    padding: 5px 42px;
-    font-family: 'Open Sans';
+  display: block;
+  clear: both;
+  width: 90%;
+  padding: 5px 8px;
+  font-family: 'Open Sans';
 }
 
 .type.manual {}
@@ -1946,6 +1947,7 @@ display: none;
     overflow: hidden;
     clear: both;
     border-radius: 3px;
+    padding-right: 45px;
 }
 
 .peoples-window .team-bar {
