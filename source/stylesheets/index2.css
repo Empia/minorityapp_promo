@@ -1690,8 +1690,8 @@ ul.case-list {
     text-align: left;
 }
 .feature-block.right-focused-feature article.cbp-so-side.cbp-so-side-right {
-    width: 50%;
-    float: right;
+  width: 44%;
+      float: right;
 }
 .feature-block.right-focused-feature figure.cbp-so-side.cbp-so-side-left {
     float: right;
