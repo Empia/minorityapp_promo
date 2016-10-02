@@ -2023,8 +2023,19 @@ display: none;
 .invoking-window {
     background: #edfbff;
     width: 100%;
-    height: 160px;
+    height: 280px;
     border-radius: 3px;
+}
+
+.invoking-window .invoking-expand-list {
+    height: 45px;
+    background: #bddffb;
+    clear: both;
+    margin-top: 8px;
+    width: 105%;
+    margin-left: -8px;
+    display: inline-block;
+    position: relative;
 }
 
 .invoking-window .invoking-launch {
@@ -2033,14 +2044,53 @@ display: none;
     height: 21px;
     margin-top: 5%;
     margin-left: 15%;
-    margin-bottom: 0%;
+    margin-bottom: 30px;
     background: white;
     padding: 8px 8px;
     display: inline-block;
     float: left;
+    clear: both;
 }
 
+invoking-window .invoking-expand-list .expanded-elem {
+    height: 4px;
+    width: 44%;
+    /* position: relative; */
+    background: #527898;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-left: 9px;
+    display: block;
+    clear: both;
+}
+.invoking-window .invoking-expand-list .expanded-elem.finished {
+    background: #a2bbd0;
+}
+section.cbp-delayed.cbp-so-section .invoking-window {
+    height: 179px;
+}
+section.cbp-delayed.cbp-so-section .invoking-expand-list {
+    height: 64px;
+}
 
+section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem {
+    margin-bottom: 20px;
+}
+
+section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem span.timer-icon {
+    display: block;
+    height: 68px;
+    width: 26px;
+    padding-bottom: 66px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem span.timer-icon path {
+    fill: #34536d;
+    stroke: #34536d;
+}
 .invoking-window .launch-button {
     float: right;
     height: 8px;
