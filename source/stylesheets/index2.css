@@ -2178,3 +2178,20 @@ display: none;
     display: inline-block;
     float: left;
 }
+
+
+
+
+.cbp-so-side-left {
+    float: left;
+    width: 45%;
+    display: inline-block;
+    margin-right: 5%;
+}
+section.cbp-invoking.cbp-so-section, section.cbp-indicators.cbp-so-section, section.cbp-delayed.cbp-so-section {
+    padding: 0px 5%;
+}
+section.cbp-invoking.cbp-so-section article.cbp-so-side.cbp-so-side-right, section.cbp-indicators.cbp-so-section article.cbp-so-side.cbp-so-side-right, section.cbp-delayed.cbp-so-section article.cbp-so-side.cbp-so-side-right {
+    width: 40%;
+    margin-right: 5%;
+}
