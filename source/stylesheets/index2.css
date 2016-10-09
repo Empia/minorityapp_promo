@@ -1827,7 +1827,7 @@ display: none;
 .create-elem-form-box {
     display: block;
     clear: both;
-    width: 88%;
+    width: 83%;
     padding: 5px 42px;
     background: white;
     font-family: 'Open Sans';
@@ -2384,23 +2384,72 @@ figure.custom-elements .custom-element-presentation .elemnt-action-title:before 
 }
 
 .custom-logic-presentation .elemnt-action-title h5 {
-    margin: 0;
-    padding: 7px 10px;
-    text-align: left;
-    background: white;
-    width: 100%;
-    background: gray;
-    margin-top: 3px;
-    font-size: 17px;
+  margin: 0;
+  padding: 7px 10px;
+  text-align: left;
+  width: 100%;
+  margin-top: 3px;
+  font-size: 14px;
+  display: block;
+  font-family: 'Open Sans';
+  background: #682784;
+  margin-top: 3px;
+  display: block;
+  margin: 8px 3px;
+  padding: 8px 27px 8px 0px;
+  border-radius: 2px;
+  color: white;
+  text-align: right;
+}
+.custom-logic-presentation .elemnt-action-title h5:before {
+    content: ' ';
+    width: 2%;
+    height: 32px;
+    background: #BA68C8;
+    position: relative;
     display: block;
-    font-family: 'Open Sans';
+    margin-top: -8px;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
 }
 .custom-logic-presentation .element-custom-logic {
     display: inline-block;
-    background: white;
-    width: 50%;
+    background: #3e454c;
+    width: 30%;
     height: 125px;
 }
+.custom-logic-presentation .element-custom-logic .custom-codes .line-of-code {
+    width: 30%;
+    height: 7px;
+    background: #fe7f66;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+}
+.custom-logic-presentation .element-custom-logic .custom-codes .line-of-code.line1 {
+  background: #fe7f66;
+  width: 17%;
+
+}
+.custom-logic-presentation .element-custom-logic .custom-codes .line-of-code.line2 {
+  background: #5C6BC0;
+  width: 26%;
+}
+.custom-logic-presentation .element-custom-logic .custom-codes .line-of-code.line3 {
+    background: #c15945;
+    width: 10%;
+}
+.custom-logic-presentation .element-custom-logic .custom-codes .line-of-code.line4 {
+  background: #00838F;
+  width: 14%;
+
+}
+
+
+
 
 .custom-logic-presentation {
     width: 100%;
@@ -2410,6 +2459,95 @@ figure.custom-elements .custom-element-presentation .elemnt-action-title:before 
 .custom-logic-presentation .element-action {
     display: inline-block;
     float: left;
-    width: 25%;
+    width: 15%;
     margin-right: 25%;
+}
+
+figure.custom-elements .custom-element-presentation .elemnt-action-title.rest {
+    background: #c4e4f1;
+}
+
+figure.custom-elements .custom-element-presentation .elemnt-action-title.rest h5 {
+    color: #003d6d;
+}
+
+figure.custom-elements .custom-element-presentation .elemnt-action-title.rest:before {
+    background: #5daaca;
+}
+
+
+
+
+
+
+
+/*
+    Form flatty styles
+*/
+.create-elem-form-box .icon-create-new-elem-field label {
+    font-size: 12px;
+    color: rgba(159, 159, 159, 0);
+    display: block;
+    text-shadow: none;
+    display: none;
+    background: #cacaca;
+    clear: both;
+    text-align: left;
+    width: 16%;
+}
+.create-elem-form-box h5 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.create-elem-form-box .icon-create-new-elem-field input {
+    border: none;
+    border-bottom: solid 16px rgba(209, 209, 209, 0.39);
+    margin-top: 3px;
+    display: block;
+    clear: both;
+    width: 30%;
+    color: transparent;
+    overflow: visible;
+}
+.create-elem-form-box .icon-create-new-elem-field input.selected {
+    border-bottom: solid 16px rgba(32, 150, 243, 0.48);
+        width: 63%;
+}
+.create-elem-form-box .icon-create-new-elem-field .type-title {
+  display: none;
+}
+.create-elem-form-box h5 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 14px;
+    font-weight: 900;
+    font-family: 'Open sans';
+    color: #636363;
+}
+.create-elem-form-box .icon-create-new-elem-field {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.create-elem-form-box .create-button {
+    width: 44%;
+    margin: 0 auto;
+    height: 28px;
+    background: #66BB6A;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.create-element-types-select .type .description {
+  display: none;
+}
+.custom-logic-presentation .element-custom-logic .sidebar {
+    display: inline-block;
+    height: 125px;
+    width: 10%;
+    background: #4b5b6b;
+    float: left;
+    border-right: 2px solid #3d4e5f;
 }
