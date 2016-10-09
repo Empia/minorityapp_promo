@@ -2297,7 +2297,6 @@ figure.custom-elements .custom-element-presentation .element {
 }
 
 figure.custom-elements .custom-element-presentation .element-action {
-    background: #546f84;
     width: 20%;
     height: 100%;
     display: inline-block;
@@ -2364,12 +2363,25 @@ figure.custom-elements .custom-element-presentation h5 {
 }
 
 figure.custom-elements .custom-element-presentation .elemnt-action-title {
-    background: gray;
+    background: #2E7D32;
     margin-top: 3px;
     display: block;
-    padding: 4px 3px;
+    margin: 8px 3px;
+    padding: 8px 27px 8px 0px;
+    border-radius: 2px;
+    text-align: right;
 }
-
+figure.custom-elements .custom-element-presentation .elemnt-action-title:before {
+    content: '';
+    width: 3px;
+    height: 32px;
+    background: #4CAF50;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: -8px;
+    border-radius: 1px 0px 0px 1px;
+}
 
 .custom-logic-presentation .elemnt-action-title h5 {
     margin: 0;
