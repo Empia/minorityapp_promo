@@ -1965,6 +1965,7 @@ display: none;
     display: inline-block;
     position: relative;
     float: left;
+    border-radius: 0px 3px 3px 3px;
 }
 .peoples-window .peoples-bar .people {
     display: inline-block;
