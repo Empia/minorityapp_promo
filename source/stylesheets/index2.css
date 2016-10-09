@@ -2163,6 +2163,7 @@ section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem span.tim
     height: 336px;
     background: #fffde7;
     padding: 5% 8%;
+    border-radius: 3px;
 }
 
 .files-window .file {
@@ -2327,6 +2328,7 @@ figure.custom-elements .custom-element-presentation .element .element-states .el
     padding-bottom: 0px;
     margin-bottom: 0px;
     padding: 5px 7px;
+    border-radius: 3px;
     font-family: 'Open Sans';
     text-align: right;
     padding-right: 13px;
