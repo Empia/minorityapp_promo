@@ -4640,6 +4640,7 @@ section.content-23.contant-page.v-center.bg-midnight-blue {
     max-height: 85%;
     margin-bottom: 20px;
     min-height: calc(100vh - 70px);
+    margin-top: 50px;
 }
 html, body {
     margin: 0;
