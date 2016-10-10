@@ -180,15 +180,15 @@ section.pricing-section .pricing__slot:hover {
     width: 182px;
 }
 section.free-options.bg-1 {
-    display: block;
-    text-align: center;
-    padding-bottom: 45px;
-    width: 58%;
-    margin: 0 auto;
-    margin-top: -140px;
-    padding-top: 2px;
-    border-radius: 5px;
-    color: black !important;
+  display: block;
+  text-align: center;
+  padding-bottom: 0px;
+  width: 58%;
+  margin: 0 auto;
+  margin-top: -160px;
+  padding-top: 2px;
+  border-radius: 5px;
+  color: black !important;
 }
 section.free-options.bg-1 h2.pricing-section__title {
     margin-bottom: 31px;
@@ -202,14 +202,17 @@ section.free-options.bg-1 .free-option__container {
     text-align: center;
     line-height: 26px;
 }
+
 section.content-23.price-page.v-center.bg-midnight-blue {
     background-color: rgb(246, 251, 255);
 }
+
 .pricing-box {
     width: 100%;
     margin: 0 auto;
     /* display: inline; */
 }
+              
 input[type=radio]:checked {
   background: #9E9E9E;
 }
