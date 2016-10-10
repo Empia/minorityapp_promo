@@ -4632,6 +4632,9 @@ button.hamburger {
 section.content-23.contant-page.v-center.bg-midnight-blue {
     min-height: 550px;
     max-height: 650px;
+    min-height: 585px;
+    max-height: 85%;
+    margin-bottom: 20px;
 }
 html, body {
     margin: 0;
