@@ -4644,7 +4644,9 @@ html, body {
 body.contacts.contacts_index {
     background: #1b1f23;
 }
-
+body.prices.prices_index {
+    background: #f6fbff;
+}
 
 .sticky-footer
 {
