@@ -4435,7 +4435,7 @@ label > strong {
 .pricing-v2 .noUi-handle::before, .pricing-v2 .noUi-handle::after {
     width: 1px;
     left: 8px;
-    background-color: #fff;
+    background-color: transparent;
     opacity: .4;
     top: 5px;
     height: 12px;
@@ -4617,4 +4617,18 @@ button.hamburger {
 .nav-collapse.collapse.pull-right.active ul.nav {
     display: block;
 }
+}
+
+
+
+
+
+
+.price-page.content-23.v-center, .content-23 .v-center {
+  min-height: 585px;
+  max-height: 688px;
+}
+section.content-23.contant-page.v-center.bg-midnight-blue {
+    min-height: 550px;
+    max-height: 650px;
 }
