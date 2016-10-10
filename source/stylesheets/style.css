@@ -4623,10 +4623,14 @@ button.hamburger {
 
 
 
-.price-page.content-23.v-center, .content-23 .v-center {
+.price-page.content-23.v-center, .content-23 .v-center, section.content-24.about-page.v-center.bg-midnight-blue {
     min-height: 552px;
     max-height: 74%;
     min-height: calc(100vh - 70px)!important;
+}
+section.content-24.about-page.v-center.bg-midnight-blue {
+    margin-bottom: -52px;
+    max-height: none;
 }
 section.content-23.contant-page.v-center.bg-midnight-blue {
     min-height: 550px;
