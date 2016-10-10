@@ -4627,6 +4627,7 @@ button.hamburger {
     min-height: 585px;
     max-height: 74%;
     margin-bottom: 20px;
+    min-height: calc(100vh - 70px) !important;
 }
 section.content-23.contant-page.v-center.bg-midnight-blue {
     min-height: 550px;
@@ -4634,6 +4635,7 @@ section.content-23.contant-page.v-center.bg-midnight-blue {
     min-height: 585px;
     max-height: 85%;
     margin-bottom: 20px;
+    min-height: calc(100vh - 70px);
 }
 html, body {
     margin: 0;
@@ -4643,18 +4645,22 @@ html, body {
 
 body.contacts.contacts_index {
     background: #1b1f23;
+    min-height: calc(100vh - 70px);
 }
 body.prices.prices_index {
     background: #f6fbff;
 }
 body.prices.prices_index {
     background: #f6fbff;
+    min-height: calc(100vh - 70px);
 }
 
 
 .sticky-footer
 {
+  /*
 	position: absolute !important;
 	bottom: 0;
 	width: 100%;
+*/
 }
