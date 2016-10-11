@@ -4677,3 +4677,24 @@ body.prices.prices_index {
 .content.getstarted-content h2 {
     margin-bottom: -20px;
 }
+
+
+
+
+
+
+
+
+body.about.about_index {
+    background: #000000;
+    min-height: calc(100vh - 70px);
+}
+section.content-24.about-page.v-center.bg-midnight-blue {
+    min-height: 550px;
+    max-height: 650px;
+    min-height: 585px;
+    max-height: 85%;
+    margin-bottom: 20px;
+    min-height: calc(100vh - 70px);
+    margin-top: 50px;
+}
