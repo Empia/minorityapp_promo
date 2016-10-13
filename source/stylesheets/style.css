@@ -4504,10 +4504,12 @@ form.navbar-form {
     display: block;
 }
 .nav-collapse ul.nav li {
-    display: block;
-    width: 216px;
-    overflow: hidden;
-    margin-left: 46px;
+  display: block;
+      width: 114px;
+      overflow: hidden;
+      margin: 7px auto !important;
+      clear: both;
+      float: none !important;
 }
 .nav-collapse ul.nav {
     display: block;
@@ -4517,11 +4519,18 @@ form.navbar-form {
 }
 .header-10 .navbar .nav>li>a {
     border-bottom: none;
+    color: black;
+}
+.header-10.whitetext .navbar .nav>li>a {
+  color: black;
 }
 
-
-
-
+.hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+      background-color: #fff !important;
+}
+.hamburger:hover {
+  opacity: 1 !important;
+}
 
 
 .about-page .container {
