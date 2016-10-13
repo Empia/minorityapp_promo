@@ -2258,7 +2258,29 @@ section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem span.tim
     width: 45%;
     display: inline-block;
     margin-right: 5%;
+    min-width: 346px;
 }
+@media screen and (max-width: 41.125em) {
+    .cbp-so-side {
+        float:none;
+        width: 100%;
+        min-width: 300px;
+    }
+
+    .cbp-so-side img {
+        max-width: 100%
+    }
+    section#subscribtionbox p {
+        display: none;
+    }
+    section.content-24.about-page.v-center.bg-midnight-blue {
+        max-height: none !important;
+    }
+}
+
+
+
+
 section.cbp-invoking.cbp-so-section, section.cbp-indicators.cbp-so-section, section.cbp-delayed.cbp-so-section {
     padding: 0px 5%;
 }

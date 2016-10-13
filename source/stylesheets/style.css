@@ -4707,3 +4707,30 @@ section.content-24.about-page.v-center.bg-midnight-blue {
     min-height: calc(100vh - 70px);
     margin-top: 100px;
 }
+
+
+
+@media (max-width: 767px) {
+    .content-23.v-center,
+    .content-23 .v-center {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contant-page a {
+        font-size: 26px !important;
+    }
+
+
+}
+@media screen and (max-width: 41.125em) {
+  section.content-24.about-page.v-center.bg-midnight-blue {
+      max-height: none !important;
+      margin-top: 0px;
+  }
+  .god-section.god-secondary {
+    width: 100% !important;
+  }
+}
