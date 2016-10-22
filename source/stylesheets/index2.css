@@ -2198,14 +2198,12 @@ section.cbp-delayed.cbp-so-section .invoking-expand-list .expanded-elem span.tim
 }
 
 .files-window .indicators .indicator svg {
-    width: 36px;
+    width: 23px;
     display: inline-block;
     float: left;
-    fill: #777777;
-    stroke: gray;
-    stroke-width: 3px;
+    margin-left: 7px;
+    margin-top: 3px;
 }
-
 
 .files-window .indicators .indicator {
     background: white;
@@ -2359,8 +2357,35 @@ figure.custom-elements .custom-element-presentation .element .element-states .el
 figure.custom-elements .custom-element-presentation .element-action-pipe {
     display: inline-block;
     width: 20%;
-    height: 10px;
+    height: 36px;
     background: #5797c5;
+}
+.element-action-pipe-payload {
+    width: 100%;
+    height: 32px;
+}
+
+.element-action-pipe-payload .payload-title {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: -6px;
+    margin-bottom: 0px;
+}
+
+.element-action-pipe-payload .payload-attributes {
+    clear: both;
+    margin-bottom: 15px;
+    margin-top: -8px;
+    display: block;
+    width: 55%;
+}
+.element-action-pipe-payload .payload-title .gray-title {
+    background: none;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 900;
 }
 figure.custom-elements .custom-element-presentation .element .element-states .element-state h5:before {
     display: block;
@@ -2573,4 +2598,39 @@ figure.custom-elements .custom-element-presentation .elemnt-action-title.rest:be
     background: #4b5b6b;
     float: left;
     border-right: 2px solid #3d4e5f;
+}
+
+
+.indicators-icon {
+    width: 30px;
+    height: 20px;
+    background: url('/images/index2/indicator.svg') no-repeat;
+    display: inline-block;
+    float: left;
+    margin-top: 6px;
+    margin-left: 12px;
+    margin-right: -8px;
+}
+
+.files-icon {
+    width: 31px;
+    height: 25px;
+    background: url(/images/index2/files.svg) no-repeat;
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-right: -1px;
+}
+
+figure.custom-elements .custom-element-presentation .element-action-pipe:after {
+    content: ' ';
+    position: relative;
+    border-bottom: dotted 3px #40759a;
+    width: 100%;
+    height: 9px;
+    display: block;
+    margin-top: 17px;
+    border-radius: 0px;
+    border-top: 3px solid #3c7196;
 }
